@@ -1,0 +1,49 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	fmt.Println(`
+	████████████████████████████████████████████████████████████████████████████
+	█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█
+	█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█
+	█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░▄▀░░█░░░░░░▄▀░░░░░░█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░░░░░█
+	█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█████░░▄▀░░█████░░▄▀░░█████████░░▄▀░░█████████
+	█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░▄▀░░█████░░▄▀░░█████░░▄▀░░░░░░░░░░█░░▄▀░░█████████
+	█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█████░░▄▀░░█████░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░█████████
+	█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░▄▀░░█████░░▄▀░░█████░░▄▀░░░░░░░░░░█░░▄▀░░█████████
+	█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█████░░▄▀░░█████░░▄▀░░█████████░░▄▀░░█████████
+	█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█████░░▄▀░░█████░░▄▀░░░░░░░░░░█░░▄▀░░░░░░░░░░█
+	█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█████░░▄▀░░█████░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█
+	█░░░░░░█████████░░░░░░██░░░░░░█████░░░░░░█████░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█
+	████████████████████████████████████████████████████████████████████████████`)
+
+	fmt.Println("")
+
+	fmt.Println("Armazenando e imprimindo tipos de dados primitivos de Golang")
+	fmt.Println("")
+
+	var valor1 int = 341
+	var valor2 bool = true
+	var valor3 string = "concluido"
+	var valor4 float32 = 3.14
+
+	fmt.Println("Imprimindo valores em Golango utilizando os verbos corretos respectivamente:")
+
+	fmt.Printf("valor1 %d, valor2 %t, valor3 %s, valor4 %f", valor1, valor2, valor3, valor4)
+
+	fmt.Println("")
+
+	fmt.Println("criando um array em Golang")
+	myfisrtarray := [5]int{1, 2, 3, 4, 5}
+	fmt.Println(myfisrtarray, "exibindo meu primeiro array")
+
+	myfirtsmap := map[string]string{"name": "Sammy", "animal": "shark", "color": "blue", "location": "ocean"}
+	fmt.Println("Exibindo apenas a key 'nome' no array ", myfirtsmap["name"])
+
+	myfirtsslice := myfisrtarray[1:]
+	fmt.Println(myfirtsslice, "exibindo o elemento apartir do número 1 no array")
+	fmt.Println("")
+
+}
