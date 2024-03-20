@@ -63,6 +63,15 @@ func main() {
 		}
 
 		if opcao == 4 {
+			arr4 := [3]int{1, 2, 3}
+			arr4Copia := arr4
+
+			fmt.Println("Array original", arr4)
+			fmt.Println("Array copia", arr4Copia)
+			fmt.Println("Clique qualquer tecla para voltar ao ínicio")
+			fmt.Scanf("%s", &input)
+		}
+		if opcao == 5 {
 			// Exercicio 9
 
 			fmt.Println("")
@@ -78,7 +87,7 @@ func main() {
 				}
 			}
 		}
-		if opcao == 5 {
+		if opcao == 6 {
 			// Exercicio 10
 
 			fmt.Println("")
@@ -100,7 +109,7 @@ func main() {
 			fmt.Println(arr10)
 		}
 
-		if opcao == 6 {
+		if opcao == 7 {
 			// Exercicio 11
 
 			fmt.Println("")
@@ -134,7 +143,7 @@ func main() {
 			fmt.Println(arr11Copia, "Sem o valor excluido")
 		}
 
-		if opcao == 7 {
+		if opcao == 8 {
 			// exercicio 12
 
 			fmt.Println("")
