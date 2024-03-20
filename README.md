@@ -1,5 +1,2 @@
-## Arquivos de aulas Golang
-
+## Estrutura de dados com Golang
 Fatec - Taquaritinga
-
-Disciplina : Estruturas de dados
