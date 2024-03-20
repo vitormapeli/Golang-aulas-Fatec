@@ -6,6 +6,8 @@ import (
 
 func main() {
 
+	var input string
+
 	var opcao int
 	fmt.Println(`
 	████████████████████████████████████████████████████████████████████████████
@@ -26,6 +28,7 @@ func main() {
 		fmt.Println("MENU ATIVIDADE")
 		fmt.Println("1. atividade 1")
 		fmt.Println("2. atividade 2")
+		fmt.Println("3. atividade 3")
 		fmt.Println("3. Atividade 9")
 		fmt.Println("4. Atividade 10")
 		fmt.Println("5. Atividade 11")
@@ -39,16 +42,27 @@ func main() {
 			// Exercicio 1
 			arr1 := [5]int{1, 2, 3, 4, 5}
 			fmt.Println(arr1)
-			opcao = 99
+			fmt.Println("Clique qualquer tecla para voltar ao ínicio")
+			fmt.Scanf("%s", &input)
 		}
 
 		if opcao == 2 {
+			// Exercicio 2
 			arr2 := []int{1, 2, 3, 4, 5, 6, 7, 8}
 			fmt.Println(arr2)
-			opcao = 99
+			fmt.Println("Clique qualquer tecla para voltar ao ínicio")
+			fmt.Scanf("%s", &input)
 		}
 
 		if opcao == 3 {
+			// Exercicio 3
+			arr3 := [9]int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+			fmt.Println(len(arr3))
+			fmt.Println("Clique qualquer tecla para voltar ao ínicio")
+			fmt.Scanf("%s", &input)
+		}
+
+		if opcao == 4 {
 			// Exercicio 9
 
 			fmt.Println("")
@@ -64,7 +78,7 @@ func main() {
 				}
 			}
 		}
-		if opcao == 4 {
+		if opcao == 5 {
 			// Exercicio 10
 
 			fmt.Println("")
@@ -86,7 +100,7 @@ func main() {
 			fmt.Println(arr10)
 		}
 
-		if opcao == 5 {
+		if opcao == 6 {
 			// Exercicio 11
 
 			fmt.Println("")
@@ -120,7 +134,7 @@ func main() {
 			fmt.Println(arr11Copia, "Sem o valor excluido")
 		}
 
-		if opcao == 6 {
+		if opcao == 7 {
 			// exercicio 12
 
 			fmt.Println("")
