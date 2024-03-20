@@ -25,10 +25,11 @@ func main() {
 	for opcao != 99 {
 		fmt.Println("MENU ATIVIDADE")
 		fmt.Println("1. atividade 1")
-		fmt.Println("2. Atividade 9")
-		fmt.Println("3. Atividade 10")
-		fmt.Println("4. Atividade 11")
-		fmt.Println("5. Atividade 12")
+		fmt.Println("2. atividade 2")
+		fmt.Println("3. Atividade 9")
+		fmt.Println("4. Atividade 10")
+		fmt.Println("5. Atividade 11")
+		fmt.Println("6. Atividade 12")
 		fmt.Println("99. Finalizar/Encerrar")
 
 		fmt.Print("Insira a opção desejada: ")
@@ -38,9 +39,16 @@ func main() {
 			// Exercicio 1
 			arr1 := [5]int{1, 2, 3, 4, 5}
 			fmt.Println(arr1)
+			opcao = 99
 		}
 
 		if opcao == 2 {
+			arr2 := []int{1, 2, 3, 4, 5, 6, 7, 8}
+			fmt.Println(arr2)
+			opcao = 99
+		}
+
+		if opcao == 3 {
 			// Exercicio 9
 
 			fmt.Println("")
@@ -56,7 +64,7 @@ func main() {
 				}
 			}
 		}
-		if opcao == 3 {
+		if opcao == 4 {
 			// Exercicio 10
 
 			fmt.Println("")
@@ -78,7 +86,7 @@ func main() {
 			fmt.Println(arr10)
 		}
 
-		if opcao == 4 {
+		if opcao == 5 {
 			// Exercicio 11
 
 			fmt.Println("")
@@ -112,7 +120,7 @@ func main() {
 			fmt.Println(arr11Copia, "Sem o valor excluido")
 		}
 
-		if opcao == 5 {
+		if opcao == 6 {
 			// exercicio 12
 
 			fmt.Println("")
